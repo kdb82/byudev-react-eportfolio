@@ -148,7 +148,7 @@ Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Me
 
 ## Change and customize every section according to your need.
 
-#### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
+#### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio. This is where you will change the TITLE of the site and the ICON of the site.
 
 ```javascript
 /* Change this file to get your Personal Porfolio */

@@ -2,6 +2,9 @@
 Certain colors are used for different and multiply types of elements. 
 For greater control over colors visit each components .scss file. */
 
+// font families -- change in containers/splashScreen/splashScreen.css as well
+$logoFontFamily: "JetBrains Mono", "SF Mono", Monaco, monospace;
+
 // button colors
 $buttonColor: #2779dd;
 $buttonHover: #438fce;
@@ -14,6 +17,7 @@ $subTitle: #868e96;
 $cardSubtitle: #666666;
 $talkCardSubTitle: #7f8287;
 $blogCardTitleColor: #262626;
+$logoNameColor: #2779dd;
 
 // text color dark theme
 $textColorDark: #ffffff;
@@ -23,12 +27,12 @@ $toggleCheck: #2196f3;
 $toggleSwitchSliderBG: #ccc;
 
 // githubRepo specific colors
-$githubRepoCardLanguageColorBG: #0000ff;
+$githubRepoCardLanguageColorBG: #f8f8f8;
 $githubRepoCardColor: rgb(88, 96, 105);
 $githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
 $githubRepoCardRepoNameColor: rgb(36, 41, 46);
 $githubProfileCardLocationTS: #ffebcd;
-$githubProfileCardBorder: #6c63ff;
+$githubProfileCardBorder: #2779dd;
 
 // light background colors
 $lightBackground1: #fff;
@@ -60,7 +64,7 @@ $experienceCardBannerLG: linear-gradient(
 // borders
 $progressBarBackground: rgb(243, 239, 239);
 $lightBorder1: rgba(211, 211, 211, 0.397);
-$educationCardBorder: #a9a7f9;
+$educationCardBorder: #2779dd;
 
 // hovers
 $achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
@@ -69,12 +73,12 @@ $headerHoverBG: #f4f4f4;
 $contactDetailHoverTS: #b5b5b5;
 
 // misc backgrounds
-$progressBarSpanBG: #aaa5ff;
+$progressBarSpanBG: #418aff;
 $iconBackground: #333;
 $appHeaderBG: #282c34;
 
 // misc colors
-$skillsColor: #645beb;
+$skillsColor: #2779dd;
 $appLink: #09d3ac;
 
 // social media icons
