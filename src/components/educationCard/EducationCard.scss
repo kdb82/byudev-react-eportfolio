@@ -40,13 +40,38 @@
   height: 27px;
 }
 
-.education-roundedimg {
-  object-fit: cover;
+.education-roundedimg-container {
   margin-right: 2rem;
   width: 6rem;
   height: 6rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+  background-color: white;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.education-roundedimg-container:hover {
+  transform: scale(1.05);
+}
+
+// Keep old class for backwards compatibility
+.education-roundedimg {
+  object-fit: contain;
+  object-position: center;
+  margin-right: 2rem;
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0.5rem;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.education-roundedimg:hover {
+  transform: scale(1.05);
 }
 
 .education-card-right {
@@ -102,6 +127,7 @@
   .education-text-duration {
     font-size: 16px;
   }
+  .education-roundedimg-container,
   .education-roundedimg {
     width: 4rem;
     height: 4rem;
@@ -120,6 +146,7 @@
   .education-card-border {
     width: 100%;
   }
+  .education-roundedimg-container,
   .education-roundedimg {
     margin-top: 10px;
     width: 4rem;

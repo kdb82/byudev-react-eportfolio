@@ -25,12 +25,14 @@ export default function EducationCard({school}) {
         <div className="education-card">
           {school.logo && (
             <div className="education-card-left">
-              <img
-                crossOrigin={"anonymous"}
-                ref={imgRef}
-                className="education-roundedimg"
-                src={school.logo}
-                alt={school.schoolName}
+              <div 
+                className="education-roundedimg-container"
+                style={{
+                  backgroundImage: `url(${school.logo})`,
+                  backgroundSize: school.logoScale ? `${school.logoScale * 100}%` : '100%',
+                  backgroundPosition: school.logoPosition || 'center',
+                  backgroundRepeat: 'no-repeat'
+                }}
               />
             </div>
           )}
