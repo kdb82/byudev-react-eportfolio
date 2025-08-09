@@ -221,6 +221,8 @@ The Profile and the Repository information from GitHub is only created at the ti
 
 - When you are done with the configuration, we highly recommend to read through the [GitHub Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
 
+Removed "node fetch.js &&" from yaml and went to v20 node
+
 #### Deploying to GitHub Pages
 
 This section guides you to deploy your portfolio on GitHub pages.
