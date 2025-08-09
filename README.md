@@ -10,7 +10,7 @@
 </p>
 
 
-Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
+Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file. We encourage you to personalize this portfolio as much as possible to stand out from others!
 
 If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
@@ -52,7 +52,7 @@ To view Saadpasta's original live example, **[click here](https://developerfolio
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer or use [Docker](https://www.docker.com/products/docker-desktop).
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. Or use [Docker](https://www.docker.com/products/docker-desktop).
 
 ```
 node@v10.16.0 or higher
@@ -199,7 +199,7 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 #### Customize Lottie Animations
 
-Lottie animations are the cool ones like the one on the splash loading screen and sprinkled throughout the site. You can choose a Lottie and download it in json format from sites like [this](https://lottiefiles.com/). You will need to make a LottieFiles account. Download a Lottie as LottieJSON. In `src/assets/lottie`, replace the Lottie json file you want to alter with the new LottieJSON and keep the same file name. If you want to change the Lottie options, go to `src/components/displayLottie/DisplayLottie.js` and change the `defaultOptions` object, you can refer [lottie-react docs](https://www.npmjs.com/package/lottie-react) for more info on the `defaultOptions` object.
+Lottie animations are the cool ones like the one on the splash loading screen and sprinkled throughout the site. Changing these will help make your portfolio stand out. You can choose a Lottie and download it in json format from sites like [this](https://lottiefiles.com/). You will need to make a LottieFiles account. Download a Lottie as LottieJSON. In `src/assets/lottie`, replace the Lottie json file you want to alter with the new LottieJSON and keep the same file name. If you want to change the Lottie options, go to `src/components/displayLottie/DisplayLottie.js` and change the `defaultOptions` object, you can refer [lottie-react docs](https://www.npmjs.com/package/lottie-react) for more info on the `defaultOptions` object.
 
 #### Adding Twitter Time line to your Page
 Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
@@ -232,7 +232,7 @@ This section guides you to deploy your portfolio on GitHub pages.
 
 - Optionally, configure the domain. This will require you to go buy a domain name from a registrar. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
 
-- Follow through the guide to setup GitHub pages from the official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages).
+- Follow through the guide to setup GitHub pages from the official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages). Make sure you are deploying to gh-pages in the scripts section of package.json. You also may have to use 'master' instead of 'main'.
 
 #### Deploying to Netlify
 
