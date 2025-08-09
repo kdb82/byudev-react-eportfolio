@@ -14,17 +14,22 @@ export default function Profile() {
   }
 
   useEffect(() => {
+    console.log("Profile useEffect running, showGithubProfile:", openSource.showGithubProfile);
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
-        fetch("/profile.json")
+        console.log("Fetching profile.json...");
+        fetch(`${process.env.PUBLIC_URL}/profile.json`)
           .then(result => {
+            console.log("Fetch result:", result.status, result.ok);
             if (result.ok) {
               return result.json();
             }
             throw new Error(`HTTP ${result.status}: ${result.statusText}`);
           })
           .then(response => {
+            console.log("Profile response:", response);
             if (response && response.data && response.data.user) {
+              console.log("Setting profile data:", response.data.user);
               setProfileFunction(response.data.user);
             } else {
               throw new Error("Invalid response structure");
@@ -32,7 +37,7 @@ export default function Profile() {
           })
           .catch(function (error) {
             console.error(
-              `${error} (because of this error GitHub contact section could not be displayed. Contact section has reverted to default)`
+              `Profile fetch error: ${error} (because of this error GitHub contact section could not be displayed. Contact section has reverted to default)`
             );
             setProfileFunction("Error");
             openSource.showGithubProfile = "false";
