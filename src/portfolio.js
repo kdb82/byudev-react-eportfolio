@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Jacob Nef",
-  title: "Hey, I'm Jacob!",
+  username: "Kaden Bradshaw",
+  title: "Hey, I'm Kaden!",
   subTitle: emoji(
-    "I'm a Computer Science student at Brigham Young University with an emphasis in Software Engineering. I currently work as a Web Developer at BYU, writing unit tests, developing websites, and leading teams to deliver high-quality software solutions."
+    "Junior Computer Science student at Brigham Young University (Bioinformatics emphasis). I build clean, reliable software and I'm anxious to contribute--especially when it comes to emerging technologies."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button. this link doesn't need to be replaced to get your resume in the site. Follow the README instructions for that.
@@ -33,9 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/jakenef",
-  linkedin: "https://www.linkedin.com/in/jacob-nef/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/kdb82",
+  // linkedin: "https://www.linkedin.com/in/jacob-nef/",
+  gmail: "kdnbradshaw@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",
@@ -49,14 +49,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "DEDICATED FULL-STACK ENGINEER WHO LOVES TO LEARN",
+  subTitle: "FULL-STACK-LEANING CS STUDENT WITH STRONG FUNDAMENTALS & CURIOSITY",
   skills: [
     emoji(
-      "⚡ Develop highly interactive user interfaces for web applications"
+      "⚡ Implement data structures/algorithms for in Python, C, C++, and Java"
     ),
     emoji("⚡ Write hundreds of unit tests in Java and TypeScript to catch edge cases"),
     emoji(
-      "⚡ Lead teams of 2-6 programmers to deliver 6+ projects on time"
+      "⚡ Translate real-world needs into shipped features"
+    ),
+     emoji(
+      "⚡ Statistical analysis and modeling of biological data with R."
     )
   ],
 
@@ -72,25 +75,15 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+    { skillName: "R", 
+      fontAwesomeClassname: "fas fa-chart-line" 
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+    { skillName: "Java", 
+      fontAwesomeClassname: "fab fa-java" 
     },
     {
       skillName: "npm",
@@ -101,21 +94,27 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    { skillName: "C++",
+       fontAwesomeClassname: "fas fa-code" 
+    },
+    { skillName: "Git", 
+    fontAwesomeClassname: "fab fa-git-alt"
+    },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
+        // {
+    //   skillName: "nodejs",
+    //   fontAwesomeClassname: "fab fa-node"
+    // },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -130,23 +129,13 @@ const educationInfo = {
       logo: require("./assets/images/byuMedallionNavy.png"),
       logoPosition: "center", // Optional: center, top, bottom, left, right, or specific like "center top"
       logoScale: 1.2, // Optional: zoom factor for logo within the FIXED circle (e.g., 0.8 = zoomed out, 1.5 = zoomed in, circle size never changes)
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2021 - April 2027",
-      desc: "2x Dean's List Recipient (Top 5% of class)",
+      subHeader: "Bachelor of Science in Computer Science (Bioinformatics Emphasis)",
+      duration: "January 2023 - April 2027 (expected)",
+      desc: "GPA 3.8; coursework in Data Structures, Computational Biology, Web Design.",
       descBullets: [
-        "President of BYU Developer's Club",
-        "Researched ... "
+        "Projects spanning algorithms, data analysis tooling, and image processing apps",
+        "Fluent in Portuguese; leadership & mentoring experience"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      logoPosition: "center",
-      logoScale: 1,
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -154,54 +143,63 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+    { Stack: "Python / Java / C / C++", progressPercentage: "80%" },
+    { Stack: "React / Node / Web", progressPercentage: "50%" },
+    { Stack: "Data / SQL / Scripting", progressPercentage: "70%" }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Landscape Designer",
+      company: "Brigham Young Univerity",
+      companylogo: require("./assets/images/byuMedallionNavy.png"), // TODO: add logo or replace with a generic icon
+      date: "2023 - present",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Managed complex, multi-step projects requiring precise planning, prioritization, execution, and teamwork",
+        "Developing strong problem-solving and organizational skills that translate directly to software development workflows."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Area Manager (Leadership & Ops)",
+      company: "Greenix Pest Control",
+      companylogo: require("./assets/images/greenix.jpg"), // TODO: add logo or replace with a generic icon
+      date: "2023",
+      desc: "Led outreach, scheduling, and service quality; met sales targets and coordinated multi-team logistics.",
+      descBullets: [
+        "Managed schedules and delivery of services; revenue milestones achieved",
+        "Built communication and leadership skills under pressure"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Operations & Manufacturing Assistant",
+      company: "Merrill Woodworking",
+      companylogo: require("./assets/images/merrillWoodworking.png"),
+      date: "Oct 2022 – Dec 2022",
+      desc: "Team-based production, materials management, and quality control to improve efficiency."
+    },
+    // {
+    //   role: "Distribution Associate",
+    //   company: "Kool Ice & Distributing",
+    //   companylogo: require("./assets/images/ice.png"),
+    //   date: "Jun 2020 – Oct 2020",
+    //   desc: "Route optimization, inventory display, and store coordination to improve throughput."
+    // },
+    // {
+    //   role: "Volunteer Representative (Portuguese)",
+    //   company: "São Paulo, Brazil",
+    //   companylogo: require("./assets/images/brazil.png"),
+    //   date: "Oct 2020 – Oct 2022",
+    //   desc: "Led 15+ volunteers; weekly trainings, progress follow-ups, service projects; taught English classes."
+    // }
   ]
 };
 
@@ -209,7 +207,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -217,7 +215,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Main Projects / Startups",
-  subtitle: "SOME PERSONAL AND SCHOOL PROJECTS",
+  subtitle: "SELECTED PERSONAL AND SCHOOL PROJECTS",
   projects: [
     {
       image: require("./assets/images/chessScreenshot.png"),
@@ -226,20 +224,18 @@ const bigProjects = {
       footerLink: [
         {
           name: "See Github",
-          url: "http://github.com/jakenef/chess"
+          url: "http://github.com/kdb82/chess"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "260 Project",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/byuDevelopers.png"),
+      projectName: "AskCosmoAI",
+      projectDesc:
+        "BYU Q&A assistant: Python scrapers → embeddings/vector search → LLM retrieval for campus info.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+        { name: "See Github", url: "https://github.com/BryceColton/askCosmoAI" }
       ]
     }
   ],
@@ -304,7 +300,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -373,11 +369,11 @@ const resumeSection = {
 
 // Update this section even if you have github linked, in case the linking fails
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me ☏"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Open to internships, research, and junior roles. Let’s chat!",
+  number: "+1(208)970-4724",
+  email_address: "kdnbradshaw@gmail.com"
 };
 
 // Twitter Section
