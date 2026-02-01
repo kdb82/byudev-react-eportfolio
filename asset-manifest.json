@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/byudev-react-eportfolio/static/css/main.a7f2df05.css",
-    "main.js": "/byudev-react-eportfolio/static/js/main.0468e3ec.js",
+    "main.js": "/byudev-react-eportfolio/static/js/main.1526ac01.js",
     "static/css/487.bfac3b0d.chunk.css": "/byudev-react-eportfolio/static/css/487.bfac3b0d.chunk.css",
     "static/js/487.9779af71.chunk.js": "/byudev-react-eportfolio/static/js/487.9779af71.chunk.js",
     "static/css/990.24e6fd7f.chunk.css": "/byudev-react-eportfolio/static/css/990.24e6fd7f.chunk.css",
@@ -10,7 +10,7 @@
     "static/media/Montserrat-Regular.ttf": "/byudev-react-eportfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/byuMedallionNavy.png": "/byudev-react-eportfolio/static/media/byuMedallionNavy.d4fbdbe109bebccdcfc3.png",
     "static/media/Agustina.woff": "/byudev-react-eportfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/resume.pdf": "/byudev-react-eportfolio/static/media/resume.97b8ecb5146e688976be.pdf",
+    "static/media/KadenBradshawResume.pdf": "/byudev-react-eportfolio/static/media/KadenBradshawResume.97b8ecb5146e688976be.pdf",
     "static/media/byuDevelopers.png": "/byudev-react-eportfolio/static/media/byuDevelopers.e5c88f0545097b253399.png",
     "static/media/manOnTable.svg": "/byudev-react-eportfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/byudev-react-eportfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -23,7 +23,7 @@
     "index.html": "/byudev-react-eportfolio/index.html",
     "static/media/talksCardBack.svg": "/byudev-react-eportfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.a7f2df05.css.map": "/byudev-react-eportfolio/static/css/main.a7f2df05.css.map",
-    "main.0468e3ec.js.map": "/byudev-react-eportfolio/static/js/main.0468e3ec.js.map",
+    "main.1526ac01.js.map": "/byudev-react-eportfolio/static/js/main.1526ac01.js.map",
     "487.bfac3b0d.chunk.css.map": "/byudev-react-eportfolio/static/css/487.bfac3b0d.chunk.css.map",
     "487.9779af71.chunk.js.map": "/byudev-react-eportfolio/static/js/487.9779af71.chunk.js.map",
     "990.24e6fd7f.chunk.css.map": "/byudev-react-eportfolio/static/css/990.24e6fd7f.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.a7f2df05.css",
-    "static/js/main.0468e3ec.js"
+    "static/js/main.1526ac01.js"
   ]
 }
