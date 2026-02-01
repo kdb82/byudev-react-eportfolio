@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jakenef.github.io/portfolio",
+  "homepage": "https://kdb82.github.io/portfolio",
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -14,17 +14,17 @@
     "react-easy-emoji": "^1.8.1",
     "react-headroom": "^3.0.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "5.0.1",
+    "react-scripts": "4.0.3",
     "react-test-renderer": "^16.10.2",
     "react-twitter-embed": "3.0.3",
     "sass": "^1.32.8"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider node fetch.js && react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider node fetch.js && react-scripts build",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test",
     "deploy": "gh-pages -b gh-pages -d build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
