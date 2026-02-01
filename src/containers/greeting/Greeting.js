@@ -3,7 +3,7 @@ import {Fade} from "react-reveal";
 // import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import lightAnim from "../../assets/lottie/Welcome.json";
-import darkAnim  from "../../assets/lottie/Welcome_dark.json";
+import darkAnim from "../../assets/lottie/Welcome_dark.json";
 // import landingPerson from "../../assets/lottie/Welcome.json";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";

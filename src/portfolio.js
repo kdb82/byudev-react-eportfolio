@@ -49,18 +49,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL-STACK-LEANING CS STUDENT WITH STRONG FUNDAMENTALS & CURIOSITY",
+  subTitle:
+    "FULL-STACK-LEANING CS STUDENT WITH STRONG FUNDAMENTALS & CURIOSITY",
   skills: [
     emoji(
       "⚡ Implement data structures/algorithms for in Python, C, C++, and Java"
     ),
-    emoji("⚡ Write hundreds of unit tests in Java and TypeScript to catch edge cases"),
     emoji(
-      "⚡ Translate real-world needs into shipped features"
+      "⚡ Write hundreds of unit tests in Java and TypeScript to catch edge cases"
     ),
-     emoji(
-      "⚡ Statistical analysis and modeling of biological data with R."
-    )
+    emoji("⚡ Translate real-world needs into shipped features"),
+    emoji("⚡ Statistical analysis and modeling of biological data with R.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -75,16 +74,12 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    { skillName: "R", 
-      fontAwesomeClassname: "fas fa-chart-line" 
-    },
+    {skillName: "R", fontAwesomeClassname: "fas fa-chart-line"},
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
-    { skillName: "Java", 
-      fontAwesomeClassname: "fab fa-java" 
-    },
+    {skillName: "Java", fontAwesomeClassname: "fab fa-java"},
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -97,17 +92,13 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    { skillName: "C++",
-       fontAwesomeClassname: "fas fa-code" 
-    },
-    { skillName: "Git", 
-    fontAwesomeClassname: "fab fa-git-alt"
-    },
+    {skillName: "C++", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"}
     // {
     //   skillName: "docker",
     //   fontAwesomeClassname: "fab fa-docker"
     // }
-        // {
+    // {
     //   skillName: "nodejs",
     //   fontAwesomeClassname: "fab fa-node"
     // },
@@ -129,7 +120,8 @@ const educationInfo = {
       logo: require("./assets/images/byuMedallionNavy.png"),
       logoPosition: "center", // Optional: center, top, bottom, left, right, or specific like "center top"
       logoScale: 1.2, // Optional: zoom factor for logo within the FIXED circle (e.g., 0.8 = zoomed out, 1.5 = zoomed in, circle size never changes)
-      subHeader: "Bachelor of Science in Computer Science (Bioinformatics Emphasis)",
+      subHeader:
+        "Bachelor of Science in Computer Science (Bioinformatics Emphasis)",
       duration: "January 2023 - April 2027 (expected)",
       desc: "GPA 3.8; coursework in Data Structures, Computational Biology, Web Design.",
       descBullets: [
@@ -145,9 +137,9 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Python / Java / C / C++", progressPercentage: "80%" },
-    { Stack: "React / Node / Web", progressPercentage: "50%" },
-    { Stack: "Data / SQL / Scripting", progressPercentage: "70%" }
+    {Stack: "Python / Java / C / C++", progressPercentage: "80%"},
+    {Stack: "React / Node / Web", progressPercentage: "50%"},
+    {Stack: "Data / SQL / Scripting", progressPercentage: "70%"}
   ],
   displayCodersrank: false
 };
@@ -185,7 +177,7 @@ const workExperiences = {
       companylogo: require("./assets/images/merrillWoodworking.png"),
       date: "Oct 2022 – Dec 2022",
       desc: "Team-based production, materials management, and quality control to improve efficiency."
-    },
+    }
     // {
     //   role: "Distribution Associate",
     //   company: "Kool Ice & Distributing",
@@ -220,7 +212,8 @@ const bigProjects = {
     {
       image: require("./assets/images/chessScreenshot.png"),
       projectName: "Chess Game",
-      projectDesc: "Features a networked client-server architecture, with a command-line client, a server to manage users and games, and shared modules for implementing chess rules and game state management.",
+      projectDesc:
+        "Features a networked client-server architecture, with a command-line client, a server to manage users and games, and shared modules for implementing chess rules and game state management.",
       footerLink: [
         {
           name: "See Github",
@@ -235,7 +228,7 @@ const bigProjects = {
       projectDesc:
         "BYU Q&A assistant: Python scrapers → embeddings/vector search → LLM retrieval for campus info.",
       footerLink: [
-        { name: "See Github", url: "https://github.com/BryceColton/askCosmoAI" }
+        {name: "See Github", url: "https://github.com/BryceColton/askCosmoAI"}
       ]
     }
   ],
@@ -370,8 +363,7 @@ const resumeSection = {
 // Update this section even if you have github linked, in case the linking fails
 const contactInfo = {
   title: emoji("Contact Me ☏"),
-  subtitle:
-    "Open to internships, research, and junior roles. Let’s chat!",
+  subtitle: "Open to internships, research, and junior roles. Let’s chat!",
   number: "+1(208)970-4724",
   email_address: "kdnbradshaw@gmail.com"
 };
