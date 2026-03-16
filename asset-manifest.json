@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/byudev-react-eportfolio/static/css/main.236a8d16.chunk.css",
-    "main.js": "/byudev-react-eportfolio/static/js/main.73547516.chunk.js",
-    "main.js.map": "/byudev-react-eportfolio/static/js/main.73547516.chunk.js.map",
-    "runtime-main.js": "/byudev-react-eportfolio/static/js/runtime-main.6bba058e.js",
-    "runtime-main.js.map": "/byudev-react-eportfolio/static/js/runtime-main.6bba058e.js.map",
-    "static/js/2.e568d4e9.chunk.js": "/byudev-react-eportfolio/static/js/2.e568d4e9.chunk.js",
-    "static/js/2.e568d4e9.chunk.js.map": "/byudev-react-eportfolio/static/js/2.e568d4e9.chunk.js.map",
+    "main.js": "/byudev-react-eportfolio/static/js/main.37bf41be.chunk.js",
+    "main.js.map": "/byudev-react-eportfolio/static/js/main.37bf41be.chunk.js.map",
+    "runtime-main.js": "/byudev-react-eportfolio/static/js/runtime-main.eb8dbb5f.js",
+    "runtime-main.js.map": "/byudev-react-eportfolio/static/js/runtime-main.eb8dbb5f.js.map",
+    "static/js/2.560de4f5.chunk.js": "/byudev-react-eportfolio/static/js/2.560de4f5.chunk.js",
+    "static/js/2.560de4f5.chunk.js.map": "/byudev-react-eportfolio/static/js/2.560de4f5.chunk.js.map",
     "static/css/3.264a9876.chunk.css": "/byudev-react-eportfolio/static/css/3.264a9876.chunk.css",
-    "static/js/3.2005f9bf.chunk.js": "/byudev-react-eportfolio/static/js/3.2005f9bf.chunk.js",
-    "static/js/3.2005f9bf.chunk.js.map": "/byudev-react-eportfolio/static/js/3.2005f9bf.chunk.js.map",
+    "static/js/3.308eb7ed.chunk.js": "/byudev-react-eportfolio/static/js/3.308eb7ed.chunk.js",
+    "static/js/3.308eb7ed.chunk.js.map": "/byudev-react-eportfolio/static/js/3.308eb7ed.chunk.js.map",
     "static/css/4.a3df04a7.chunk.css": "/byudev-react-eportfolio/static/css/4.a3df04a7.chunk.css",
-    "static/js/4.4f5c5e8b.chunk.js": "/byudev-react-eportfolio/static/js/4.4f5c5e8b.chunk.js",
-    "static/js/4.4f5c5e8b.chunk.js.map": "/byudev-react-eportfolio/static/js/4.4f5c5e8b.chunk.js.map",
+    "static/js/4.1e5befac.chunk.js": "/byudev-react-eportfolio/static/js/4.1e5befac.chunk.js",
+    "static/js/4.1e5befac.chunk.js.map": "/byudev-react-eportfolio/static/js/4.1e5befac.chunk.js.map",
     "index.html": "/byudev-react-eportfolio/index.html",
     "static/css/3.264a9876.chunk.css.map": "/byudev-react-eportfolio/static/css/3.264a9876.chunk.css.map",
     "static/css/4.a3df04a7.chunk.css.map": "/byudev-react-eportfolio/static/css/4.a3df04a7.chunk.css.map",
     "static/css/main.236a8d16.chunk.css.map": "/byudev-react-eportfolio/static/css/main.236a8d16.chunk.css.map",
-    "static/js/2.e568d4e9.chunk.js.LICENSE.txt": "/byudev-react-eportfolio/static/js/2.e568d4e9.chunk.js.LICENSE.txt",
+    "static/js/2.560de4f5.chunk.js.LICENSE.txt": "/byudev-react-eportfolio/static/js/2.560de4f5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/byudev-react-eportfolio/static/media/Montserrat-Regular.3cd78665.ttf",
     "static/media/byuDevelopers.png": "/byudev-react-eportfolio/static/media/byuDevelopers.e5c88f05.png",
     "static/media/byuMedallionNavy.png": "/byudev-react-eportfolio/static/media/byuMedallionNavy.d4fbdbe1.png",
@@ -33,9 +33,9 @@
     "static/media/TalkCard.scss": "/byudev-react-eportfolio/static/media/talksCardBack.73ed1545.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6bba058e.js",
-    "static/js/2.e568d4e9.chunk.js",
+    "static/js/runtime-main.eb8dbb5f.js",
+    "static/js/2.560de4f5.chunk.js",
     "static/css/main.236a8d16.chunk.css",
-    "static/js/main.73547516.chunk.js"
+    "static/js/main.37bf41be.chunk.js"
   ]
 }
