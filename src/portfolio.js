@@ -146,8 +146,8 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     {Stack: "Python / Java / C / C++", progressPercentage: "80%"},
-    {Stack: "React / Node / Web", progressPercentage: "50%"},
-    {Stack: "Data / SQL / Scripting", progressPercentage: "70%"}
+    {Stack: "React / Node / Web", progressPercentage: "70%"},
+    {Stack: "Data / SQL / Scripting", progressPercentage: "60%"}
   ],
   displayCodersrank: false
 };
