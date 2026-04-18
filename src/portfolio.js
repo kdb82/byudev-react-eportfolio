@@ -5,6 +5,14 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
+// Image imports
+import byuMedallionNavy from "./assets/images/byuMedallionNavy.png";
+import greenixLogo from "./assets/images/greenix.jpg";
+import merrillWoodworkingLogo from "./assets/images/merrillWoodworking.png";
+import chessScreenshot from "./assets/images/chessScreenshot.png";
+import byuDevelopers from "./assets/images/byuDevelopers.png";
+import pantryPal from "./assets/images/pantryPal.png";
+
 // Splash Screen
 
 const splashScreen = {
@@ -117,7 +125,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Brigham Young University",
-      logo: require("./assets/images/byuMedallionNavy.png").default,
+      logo: byuMedallionNavy,
       logoPosition: "center", // Optional: center, top, bottom, left, right, or specific like "center top"
       logoScale: 1.2, // Optional: zoom factor for logo within the FIXED circle (e.g., 0.8 = zoomed out, 1.5 = zoomed in, circle size never changes)
       subHeader:
@@ -152,7 +160,7 @@ const workExperiences = {
     {
       role: "Landscape Designer",
       company: "Brigham Young Univerity",
-      companylogo: require("./assets/images/byuMedallionNavy.png").default, // TODO: add logo or replace with a generic icon
+      companylogo: byuMedallionNavy, // TODO: add logo or replace with a generic icon
       date: "2023 - present",
       desc: "",
       descBullets: [
@@ -163,7 +171,7 @@ const workExperiences = {
     {
       role: "Area Manager (Leadership & Ops)",
       company: "Greenix Pest Control",
-      companylogo: require("./assets/images/greenix.jpg").default, // TODO: add logo or replace with a generic icon
+      companylogo: greenixLogo, // TODO: add logo or replace with a generic icon
       date: "2023",
       desc: "Led outreach, scheduling, and service quality; met sales targets and coordinated multi-team logistics.",
       descBullets: [
@@ -174,7 +182,7 @@ const workExperiences = {
     {
       role: "Operations & Manufacturing Assistant",
       company: "Merrill Woodworking",
-      companylogo: require("./assets/images/merrillWoodworking.png").default,
+      companylogo: merrillWoodworkingLogo,
       date: "Oct 2022 – Dec 2022",
       desc: "Team-based production, materials management, and quality control to improve efficiency."
     }
@@ -200,7 +208,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -210,7 +218,7 @@ const bigProjects = {
   subtitle: "SELECTED PERSONAL AND SCHOOL PROJECTS",
   projects: [
     {
-      image: require("./assets/images/chessScreenshot.png").default,
+      image: chessScreenshot,
       projectName: "Chess Game",
       projectDesc:
         "Features a networked client-server architecture, with a command-line client, a server to manage users and games, and shared modules for implementing chess rules and game state management.",
@@ -223,12 +231,12 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/byuDevelopers.png").default,
-      projectName: "AskCosmoAI",
+      image: pantryPal,
+      projectName: "StartupPantryPal",
       projectDesc:
-        "BYU Q&A assistant: Python scrapers → embeddings/vector search → LLM retrieval for campus info.",
+        "A pantry tracker and recipe generator powered by an LLM through the OpenRouter API. Manage ingredients and get AI-generated recipes from what you have on hand.",
       footerLink: [
-        {name: "See Github", url: "https://github.com/BryceColton/askCosmoAI"}
+        {name: "See Github", url: "https://github.com/kdb82/StartupPantryPal"}
       ]
     }
   ],
