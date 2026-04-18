@@ -117,7 +117,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Brigham Young University",
-      logo: require("./assets/images/byuMedallionNavy.png"),
+      logo: require("./assets/images/byuMedallionNavy.png").default,
       logoPosition: "center", // Optional: center, top, bottom, left, right, or specific like "center top"
       logoScale: 1.2, // Optional: zoom factor for logo within the FIXED circle (e.g., 0.8 = zoomed out, 1.5 = zoomed in, circle size never changes)
       subHeader:
@@ -152,7 +152,7 @@ const workExperiences = {
     {
       role: "Landscape Designer",
       company: "Brigham Young Univerity",
-      companylogo: require("./assets/images/byuMedallionNavy.png"), // TODO: add logo or replace with a generic icon
+      companylogo: require("./assets/images/byuMedallionNavy.png").default, // TODO: add logo or replace with a generic icon
       date: "2023 - present",
       desc: "",
       descBullets: [
@@ -163,7 +163,7 @@ const workExperiences = {
     {
       role: "Area Manager (Leadership & Ops)",
       company: "Greenix Pest Control",
-      companylogo: require("./assets/images/greenix.jpg"), // TODO: add logo or replace with a generic icon
+      companylogo: require("./assets/images/greenix.jpg").default, // TODO: add logo or replace with a generic icon
       date: "2023",
       desc: "Led outreach, scheduling, and service quality; met sales targets and coordinated multi-team logistics.",
       descBullets: [
@@ -174,7 +174,7 @@ const workExperiences = {
     {
       role: "Operations & Manufacturing Assistant",
       company: "Merrill Woodworking",
-      companylogo: require("./assets/images/merrillWoodworking.png"),
+      companylogo: require("./assets/images/merrillWoodworking.png").default,
       date: "Oct 2022 – Dec 2022",
       desc: "Team-based production, materials management, and quality control to improve efficiency."
     }
@@ -210,7 +210,7 @@ const bigProjects = {
   subtitle: "SELECTED PERSONAL AND SCHOOL PROJECTS",
   projects: [
     {
-      image: require("./assets/images/chessScreenshot.png"),
+      image: require("./assets/images/chessScreenshot.png").default,
       projectName: "Chess Game",
       projectDesc:
         "Features a networked client-server architecture, with a command-line client, a server to manage users and games, and shared modules for implementing chess rules and game state management.",
@@ -223,7 +223,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/byuDevelopers.png"),
+      image: require("./assets/images/byuDevelopers.png").default,
       projectName: "AskCosmoAI",
       projectDesc:
         "BYU Q&A assistant: Python scrapers → embeddings/vector search → LLM retrieval for campus info.",
